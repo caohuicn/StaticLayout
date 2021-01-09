@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_textview">
+
+    <fragment
+        android:id="@+id/navigation_textview"
+        android:name="com.example.staticlayout.ui.textview.TextViewFragment"
+        android:label="@string/title_textview"
+        tools:layout="@layout/fragment_textview" />
+
+    <fragment
+        android:id="@+id/navigation_staticlayout"
+        android:name="com.example.staticlayout.ui.staticlayout.StaticLayoutFragment"
+        android:label="@string/title_staticlayout"
+        tools:layout="@layout/fragment_staticlayout" />
+
+</navigation>

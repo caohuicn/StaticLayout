@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StaticLayout</string>
+    <string name="title_textview">TextView</string>
+    <string name="title_staticlayout">StaticLayout</string>
+</resources>
